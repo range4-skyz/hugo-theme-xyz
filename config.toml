@@ -1,0 +1,16 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemesSiteBuilder#theme-configuration for an example
+
+name = "hugo-theme-xyz"
+license = "MIT"
+licenselink = "https://github.com/range4-skyz/hugo-theme-xyz/blob/master/LICENSE"
+description = ""
+homepage = "https://github.com/range4-skyz/hugo-theme-xyz/"
+demosite = "https://range4-skyz.github.io/hugo-theme-xyz/"
+tags = ["simple", "clean", "light", "dark", "blog", "minimalist", "search"]
+features = ["blog", "search"]
+min_version = "0.146.0"
+
+[author]
+name = "Sstmtz"
+homepage = "https://github.com/range4-skyz/"

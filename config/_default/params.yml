@@ -1,0 +1,44 @@
+# █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█   █▀█ ▄▀█ █▀█ ▄▀█ █▀▄▀█ █▀
+# █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█   █▀▀ █▀█ █▀▄ █▀█ █░▀░█ ▄█
+# custom params
+
+# NOTE: The following two ways of writing are equivalent:
+## In config/_default/hugo.{yaml,toml,json}
+# parmas:
+#   foo: bar
+## In config/_default/params.{yaml,toml,json}
+# foo: bar
+
+# Docs:
+# - https://gohugo.io/methods/page/params/#article
+
+############################
+# Main menu navigation bar #
+############################
+menu:
+  - name: Home
+    url: ""
+    icon:
+  - name: Archives
+    url: "archives"
+    icon:
+  - name: Search
+    url: "search"
+    icon:
+  - name: About
+    url: "about"
+    icon:
+  - name: Friends
+    url: "friend"
+    icon:
+
+############################
+### Personal information ###
+############################
+author: Sstmtz
+email: xxx@example.com
+
+############################
+########## Theme ###########
+############################
+defaultTheme: auto
